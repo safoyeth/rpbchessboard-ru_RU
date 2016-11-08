@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 11:27+0300\n"
-"PO-Revision-Date: 2016-11-02 11:59+0300\n"
+"POT-Creation-Date: 2016-11-08 11:50+0300\n"
+"PO-Revision-Date: 2016-11-08 11:52+0300\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.11\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Language: ru_RU\n"
 
 #: models/adminpage/help.php
 #, php-format
@@ -312,32 +312,24 @@ msgid "Above the game headers and the move list"
 msgstr "Над заголовком и ходами"
 
 #: templates/adminpage/options/general/navigationboard.php
-msgid "Above"
-msgstr "Сверху"
-
-#: templates/adminpage/options/general/navigationboard.php
 msgid "Below the move list"
 msgstr "Под ходами"
-
-#: templates/adminpage/options/general/navigationboard.php
-msgid "Below"
-msgstr "Снизу"
 
 #: templates/adminpage/options/general/navigationboard.php
 msgid "On the left of the move list"
 msgstr "Слева от ходов"
 
 #: templates/adminpage/options/general/navigationboard.php
-msgid "On the left"
-msgstr "Слева"
-
-#: templates/adminpage/options/general/navigationboard.php
 msgid "On the right of the move list"
 msgstr "Справа от ходов"
 
 #: templates/adminpage/options/general/navigationboard.php
-msgid "On the right"
-msgstr "Справа"
+msgid "On the left, with scrollable move list"
+msgstr "Слева, с прокручиваемой областью ходов"
+
+#: templates/adminpage/options/general/navigationboard.php
+msgid "On the right, with scrollable move list"
+msgstr "Справа, с прокручиваемой областью ходов"
 
 #: templates/adminpage/options/general/navigationboard.php
 msgid ""
@@ -679,6 +671,10 @@ msgstr "Участники проекта"
 #: templates/adminpage/about.php
 msgid "Author"
 msgstr "Автор"
+
+#: templates/adminpage/about.php
+msgid "Contributor"
+msgstr ""
 
 #: templates/adminpage/about.php
 msgid "Translators"
@@ -1320,6 +1316,22 @@ msgstr "Навигационная доска отображается слев�
 msgid "The navigation board is displayed on the right of the move list."
 msgstr "Навигационная доска отображается справа от списка ходов."
 
+#: templates/adminpage/help/pgnattributes/navigationboard.php
+msgid ""
+"The navigation board is displayed on the left of the move list. The move "
+"list becomes scrollable if it is higher than the navigation board."
+msgstr ""
+"Навигационная доска отображается слева от списка ходов. Список ходов "
+"становится прокручиваемым если его высота больше высоты навигационной доски."
+
+#: templates/adminpage/help/pgnattributes/navigationboard.php
+msgid ""
+"The navigation board is displayed on the right of the move list. The move "
+"list becomes scrollable if it is higher than the navigation board."
+msgstr ""
+"Навигационная доска отображается справа от списка ходов. Список ходов "
+"становится прокручиваемым если его высота больше высоты навигационной доски."
+
 #: templates/adminpage/help/pgnattributes/main.php
 #, php-format
 msgid ""
@@ -1549,3 +1561,15 @@ msgid ""
 msgstr ""
 "Этот плагин позволит вам создавать и отображать шахматные диаграммы и PGN "
 "партии."
+
+#~ msgid "Above"
+#~ msgstr "Сверху"
+
+#~ msgid "Below"
+#~ msgstr "Снизу"
+
+#~ msgid "On the left"
+#~ msgstr "Слева"
+
+#~ msgid "On the right"
+#~ msgstr "Справа"
